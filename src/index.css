@@ -1,0 +1,121 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: #2a344a;
+  height: 100vh;
+}
+
+.navBar{
+  background-color: #12213e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  max-height: 900px;
+  padding: 10px;
+}
+
+.filter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.buttonFilter{
+  padding: 8px;
+  margin: 6px;
+  align-items: center;
+  background-color: #12213e;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.buttonFilter:hover{
+  border-color: white;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  min-height: 50vh;
+
+}
+
+.card{
+  background-color:#12213e;
+  color: white;
+  width: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 330px;
+}
+
+.cardDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.cardImage{
+  position: relative;
+  width: 100%;
+  height: 41%;
+}
+
+.heart {
+  position: absolute;
+  top: calc(189px - 1.75rem / 2); 
+  right: 0.6rem;
+  transform: translateY(-60%);
+  width: 30px;
+  height: 40px;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 28px;
+}
+
+.card-content p{
+  font-size: 0.92rem;
+}
+
+.filter_cards{
+  background-color: #2a344a;
+}
